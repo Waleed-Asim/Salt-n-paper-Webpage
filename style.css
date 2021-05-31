@@ -1,0 +1,262 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+
+.logo{
+    /* background-color: rgb(80, 212, 19); */
+    width: 20%;
+    /* margin-left: 20px; */
+    float: left;
+
+    
+}
+
+.logo>img{
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+.menu{
+    /* background-color: rgb(135, 19, 212); */  
+    height: 55px;
+    width: 75%;
+    float: right;
+
+}
+
+.menu-item{
+    padding: 15px;
+    margin: 0;
+    margin-top: 2px;
+    
+}
+
+.menu-item> li{
+    display: inline;
+    
+}
+
+.menu-item> li > a{
+    margin-left: 35px;
+    color: rgb(177, 176, 176);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu-item> li > a:hover{
+    color: red;
+
+}
+
+.home{
+    color: white !important;
+}
+
+.home:hover{
+    color: red !important;
+}
+
+.order{
+    padding: 8px;
+    background-color: red;
+    color: white !important;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.slider>img{
+    width: 100%
+}
+
+.welcome-note{
+    /* background-color: blue; */
+    width: 100%;
+    text-align: center;
+    padding: 0px 0 25px 0;
+}
+
+.welcome-note>h2{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 500;
+
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.section{
+    background-color: rgb(135, 19, 212);
+    width: 100%;
+    background: url(Images/115566.jpg) repeat fixed ;
+
+    
+    
+}
+
+.inner-section{
+    /* background-color: rgb(52, 59, 11); */
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading{
+    
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.heading > h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.brands{
+    background-color: rgb(241, 241, 241);
+    height: 150px;
+    width: 25%;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.brands>img{
+    height: 100px;
+    width: 250px;
+    margin: 25px 0px 10px 15px;
+    
+    
+}
+
+.brand1{
+    display: inline-block;
+}
+
+.brand2{
+    display: inline-block;
+}
+
+.menu2{
+    /* background-color: aqua; */
+    width: 25%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.second{
+    margin-left: 70px;
+}
+
+.third{
+    margin-left: 70px;
+}
+
+.brand-menu{
+    list-style-type: none;
+
+}
+
+.brand-menu>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.order-now{
+    padding: 1px 6px;
+    background-color: red;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.location{
+    height: 170px;
+    width: 225px; 
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.location>img{
+    height: 50px;
+    width: 50px; 
+
+}
+
+.location> p {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+h5{
+    color: white;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.foot-sec{
+    /* background-color: rgb(245, 99, 99); */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.foot-one{
+    /* background-color: rgb(26, 147, 184); */
+    width: 24%;
+    height: 250px;
+    display: inline-block;
+    margin-left: 8px;
+
+}
+
+.foot-links{
+    margin: 0;
+    padding: 3px;
+}
+
+.foot-links>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.foot-heading{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.copy{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: white;
+}
